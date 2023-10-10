@@ -13,7 +13,7 @@ import com.example.recyclerviewexercise.model.WisataModel
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityMainBinding
-    private lateinit var adapter:RvWisataAdapter
+    private lateinit var adapterKeren:RvWisataAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,14 +29,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setRvAdapter() {
+
         val dataList:MutableList<WisataModel> = mutableListOf()
 
         nameWisata().forEachIndexed { index, name ->
             dataList.add(WisataModel(imageWisata().get(index),name,descWisata()[index]))
         }
+
         Log.d("ISI DATANYA ",dataList.toString())
-        adapter = RvWisataAdapter(dataList,this@MainActivity)
-        binding.rvExample.adapter = adapter
+        adapterKeren = RvWisataAdapter(dataList)
+        binding.rvExample.adapter = adapterKeren
+
     }
 
     private fun nameWisata():Array<String> = resources.getStringArray(R.array.data_name)

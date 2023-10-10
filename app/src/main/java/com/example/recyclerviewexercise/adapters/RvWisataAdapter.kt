@@ -9,7 +9,7 @@ import com.example.recyclerviewexercise.R
 import com.example.recyclerviewexercise.databinding.WisataItemBinding
 import com.example.recyclerviewexercise.model.WisataModel
 
-class RvWisataAdapter(private val list: List<WisataModel>, private val context:Context) :
+class RvWisataAdapter(private val list: List<WisataModel>) :
     RecyclerView.Adapter<RvWisataAdapter.ViewHolder>() {
 
     class ViewHolder(val binding: WisataItemBinding) : RecyclerView.ViewHolder(binding.root)

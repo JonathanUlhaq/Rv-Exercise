@@ -11,16 +11,6 @@
         <item>Nusa Penida (Bali)</item>
     </string-array>
 
-    <integer-array name="data_photo">
-        <item>@drawable/pura_besakih</item>
-        <item>@drawable/kepulauan_derawan</item>
-        <item>@drawable/taman_laut_bunaken</item>
-        <item>@drawable/pantai_parai_tenggiri</item>
-        <item>@drawable/nusa_dua_bali</item>
-        <item>@drawable/gunung_rinjani</item>
-        <item>@drawable/danau_toba</item>
-        <item>@drawable/nusa_penida</item>
-    </integer-array>
     <string-array name="data_description">
         <item>Pura Agung Besakih adalah pura terbesar dan termegah di Bali. Pulau ini terletak di Desa Besakih, Kecamatan Rendang, berada di lereng sebelah barat daya Gunung Agung, gunung tertinggi di Bali. Pura Agung Besakih memiliki gaya arsitektur yang mengagumkan khas Bali dan berada di ketinggian 915 kaki di kaki Gunung Agung dengan memukau. Bangunan yang dibangun sejak abad ke-10 Masehi ini menjadi pusat kegiatan spiritual Hindu Dharma di Pulau Dewata.</item>
         <item>Kepulauan Derawan adalah sebuah kepulauan yang berada di Kabupaten Berau, Kalimantan Timur. Di kepulauan ini terdapat sejumlah objek wisata bahari menawan, salah satunya Taman Bawah Laut yang diminati wisatawan mancanegara terutama para penyelam kelas dunia. Saat pertama kali menginjakan kaki disini, jangan heran bila Toppers akan disambut dengan hamparan pasir putih yang mempesona. Warna airnya yang sangat jernih juga akan bikin kamu betah untuk berlama-lama di kawasan ini. Panorama alam ini menjadi sajian liburan utama bagi wisatawan dalam berkunjung.</item>
